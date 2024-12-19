@@ -298,7 +298,7 @@ a {
     right: -40px;
     width: 150px;
     height: 200px;
-    background-image: url('./assets/img/cards.png');
+    background-image: url("../assets/img/cards.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
