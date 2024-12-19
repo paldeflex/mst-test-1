@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="assets/js/main.js"></script>
     <title>Feel the Thrill</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <header class="header">
@@ -26,94 +27,97 @@
         <a href="#" class="navbar__link">Promotions</a>
     </nav>
 </header>
-<div class="hero">
-    <div class="hero__content">
-        <div class="hero__promo-block">
-            <h1 class="hero__title">Experience the Real Thrill of Winning</h1>
-            <p class="hero__subtitle">Join now, spin the reels, and hit massive jackpots</p>
-            <div class="features">
-                <div class="features__item">
-                    <img src="assets/img/check.svg" alt="Hero Feature" class="features__icon">
-                    <p class="feature__text">Get up to <span class="feature__highlight">&#36;10,000</span> as a Welcome
-                        Bonus</p>
+
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+        <article class="hero__content">
+            <div class="hero__promo-block">
+                <h1 class="hero__title">Experience the Real Thrill of Winning</h1>
+                <p class="hero__subtitle">Join now, spin the reels, and hit massive jackpots</p>
+                <div class="features">
+                    <div class="features__item">
+                        <img src="assets/img/check.svg" alt="Check icon" class="features__icon">
+                        <p class="feature__text">Get up to <span class="feature__highlight">$10,000</span> as a Welcome Bonus</p>
+                    </div>
+                    <div class="features__item">
+                        <img src="assets/img/check.svg" alt="Check icon" class="features__icon">
+                        <p class="feature__text"><span class="feature__highlight">$30%</span> weekly cashback on every spin</p>
+                    </div>
+                    <div class="features__item">
+                        <img src="assets/img/check.svg" alt="Check icon" class="features__icon">
+                        <p class="feature__text">Earn <span class="feature__highlight">$17%</span> extra credits on all slot tournaments</p>
+                    </div>
                 </div>
-                <div class="features__item">
-                    <img src="assets/img/check.svg" alt="Hero Feature" class="features__icon">
-                    <p class="feature__text"><span class="feature__highlight">&#36;30%</span> weekly cashback on every
-                        spin</p>
+                <button class="btn hero__btn play-now-btn">Play Now</button>
+            </div>
+        </article>
+        <aside class="hero__image-block">
+            <img src="assets/img/hero-image.png" alt="Slot machine and winnings" class="hero__image">
+        </aside>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages">
+        <aside class="advantages__block">
+            <img src="assets/img/advantages-image-1.jpg" alt="Casino atmosphere" class="advantages__image">
+        </aside>
+        <article class="advantages__block">
+            <div class="advantages__info">
+                <div class="advantages__item">
+                    <img src="assets/img/advantage.svg" alt="Advantage icon" class="advantages__icon">
+                    <p class="advantages__text">Experience thrilling casino games and win big every day!</p>
                 </div>
-                <div class="features__item">
-                    <img src="assets/img/check.svg" alt="Hero Feature" class="features__icon">
-                    <p class="feature__text">Earn <span class="feature__highlight">&#36;17%</span> extra credits on all
-                        slot tournaments</p>
+                <div class="advantages__item">
+                    <img src="assets/img/advantage.svg" alt="Advantage icon" class="advantages__icon">
+                    <p class="advantages__text">Join our platform to enjoy exclusive bonuses and free spins.</p>
                 </div>
+                <div class="advantages__item">
+                    <img src="assets/img/advantage.svg" alt="Advantage icon" class="advantages__icon">
+                    <p class="advantages__text">Our platform offers secure transactions and a wide variety of games to suit everyone.</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="assets/img/advantage.svg" alt="Advantage icon" class="advantages__icon">
+                    <p class="advantages__text">Sign up now to access top-rated slots and table games!</p>
+                </div>
+                <button class="btn advantages__btn play-now-btn">Play Now</button>
             </div>
-            <button class="btn hero__btn play-now-btn">Play Now</button>
-        </div>
-    </div>
-    <div class="hero__image-block">
-        <img src="assets/img/hero-image.png" alt="Hero Image" class="hero__image">
-    </div>
-</div>
-<div class="advantages">
-    <div class="advantages__block">
-        <img src="assets/img/advantages-image-1.jpg" alt="Advantages Image" class="advantages__image">
-    </div>
-    <div class="advantages__block">
-        <div class="advantages__info">
-            <div class="advantages__item">
-                <img src="assets/img/advantage.svg" alt="Advantages Icon" class="advantages__icon">
-                <p class="advantages__text">Experience thrilling casino games and win big every day!</p>
-            </div>
-            <div class="advantages__item">
-                <img src="assets/img/advantage.svg" alt="Advantages Icon" class="advantages__icon">
-                <p class="advantages__text">Join our platform to enjoy exclusive bonuses and free spins.</p>
-            </div>
-            <div class="advantages__item">
-                <img src="assets/img/advantage.svg" alt="Advantages Icon" class="advantages__icon">
-                <p class="advantages__text">Our platform offers secure transactions and a wide variety of games to suit
-                    everyone.</p>
-            </div>
-            <div class="advantages__item">
-                <img src="assets/img/advantage.svg" alt="Advantages Icon" class="advantages__icon">
-                <p class="advantages__text">Sign up now to access top-rated slots and table games!</p>
-            </div>
-            <button class="btn advantages__btn play-now-btn">Play Now</button>
-        </div>
-    </div>
-    <div class="advantages__block">
-        <img src="assets/img/advantages-image-2.jpg" alt="Advantages Image" class="advantages__image">
-    </div>
-</div>
-<div class="form-section" id="form-section">
-    <div class="form-block-container">
-        <div class="form-block">
-            <div class="form-info-container">
-                <div class="form-info">
-                    <h2 class="form-block__title">
-                        Place your bet and win!
-                    </h2>
-                    <form action="/" method="post" class="form">
-                        <div class="input-group">
-                            <input type="text" name="name" id="name" placeholder="Name" class="input">
-                            <input type="email" name="email" id="email" placeholder="E-mail" class="input">
-                            <div class="checkbox-container">
-                                <label for="checkbox" class="checkbox-label">
-                                    <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
-                                    I accept <a href="#" class="checkbox__link">Privacy policy</a>
-                                </label>
+        </article>
+        <aside class="advantages__block">
+            <img src="assets/img/advantages-image-2.jpg" alt="Players enjoying casino" class="advantages__image">
+        </aside>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section" id="form-section">
+        <div class="form-block-container">
+            <article class="form-block">
+                <div class="form-info-container">
+                    <div class="form-info">
+                        <h2 class="form-block__title">Place your bet and win!</h2>
+                        <form action="/" method="post" class="form">
+                            <div class="input-group">
+                                <input type="text" name="name" id="name" placeholder="Name" class="input">
+                                <input type="email" name="email" id="email" placeholder="E-mail" class="input">
+                                <div class="checkbox-container">
+                                    <label for="checkbox" class="checkbox-label">
+                                        <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+                                        I accept <a href="#" class="checkbox__link">Privacy policy</a>
+                                    </label>
+                                </div>
+                                <input type="submit" value="Submit form" class="btn form-submit">
                             </div>
-                            <input type="submit" value="Submit form" class="btn form-submit">
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="form-image-container">
-                <img src="assets/img/image-form.png" alt="Image form" class="form-image">
-            </div>
+                <figure class="form-image-container">
+                    <img src="assets/img/image-form.png" alt="Form promotion" class="form-image">
+                </figure>
+            </article>
         </div>
-    </div>
-</div>
+    </section>
+</main>
+
 <footer class="footer">
     <nav class="footer__links">
         <a href="#" class="footer__link">Slots</a>
@@ -125,31 +129,28 @@
             <div class="logo footer__logo">
                 <a href="/" class="logo__link">Fortune Spins</a>
             </div>
-
         </div>
         <div class="footer__bottom-block">
             <nav class="social__links">
-                <a href="#"><img src="./assets/img/instagram.svg" alt="Instagram"></a>
-                <a href="#"><img src="./assets/img/tiktok.svg" alt="Tiktok"></a>
-                <a href="#"><img src="./assets/img/linkedin.svg" alt="Linkedin"></a>
-                <a href="#"><img src="./assets/img/facebook.svg" alt="Facebook"></a>
-                <a href="#"><img src="./assets/img/telegram.svg" alt="Telegram"></a>
-                <a href="#"><img src="./assets/img/youtube.svg" alt="Youtube"></a>
+                <a href="#" aria-label="Instagram"><img src="assets/img/instagram.svg" alt="Instagram"></a>
+                <a href="#" aria-label="TikTok"><img src="assets/img/tiktok.svg" alt="Tiktok"></a>
+                <a href="#" aria-label="LinkedIn"><img src="assets/img/linkedin.svg" alt="Linkedin"></a>
+                <a href="#" aria-label="Facebook"><img src="assets/img/facebook.svg" alt="Facebook"></a>
+                <a href="#" aria-label="Telegram"><img src="assets/img/telegram.svg" alt="Telegram"></a>
+                <a href="#" aria-label="YouTube"><img src="assets/img/youtube.svg" alt="Youtube"></a>
             </nav>
         </div>
         <div class="footer__bottom-block">
             <button class="btn play-now-btn footer__bottom-btn">Play Now</button>
-
         </div>
     </div>
     <div class="footer__bottom footer__bottom-links">
-        <small class="footer__copyright footer__bottom-link">&#169; 2024, Copyright.</small>
+        <small class="footer__copyright footer__bottom-link">
+            &copy; 2024, Copyright.
+        </small>
         <a href="#" class="footer__bottom-link">Privacy policy</a>
-        <a href="#"class="footer__bottom-link">Terms of Use</a>
+        <a href="#" class="footer__bottom-link">Terms of Use</a>
     </div>
 </footer>
-
-<link rel="stylesheet" href="assets/css/reset.css">
-<link rel="stylesheet" href="assets/css/style.css">
 </body>
 </html>
